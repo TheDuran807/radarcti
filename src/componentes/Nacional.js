@@ -105,7 +105,7 @@ const Nacional=()=> {
         <br></br>
         <h2>Ranking</h2>
         <h3>Inserte estado o ranking a buscar</h3>
-          <CompoShowRegN/>
+          <CompShowRegN/>
     
         
 
