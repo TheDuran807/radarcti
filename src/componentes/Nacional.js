@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import '../styles/Nacional.css';
 import CompShowRegN from "../registros/CompShowRegN";
 
-const url= 'http://localhost:8000/nacionals/'
 
 const Nacional=()=> {
   return (
