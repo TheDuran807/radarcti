@@ -1,0 +1,333 @@
+.mundo-nac{
+   
+  background-image: linear-gradient(to right,rgb(0 0 0/ .8) , rgb(0 0 0/.7)), url(../imagenes/mundo.png);
+   padding: 0;
+   margin: 0;
+   
+   background-size: 100% 300%;
+   height: 150px;
+   width: 100%; 
+   background-repeat: no-repeat; 
+  
+ }
+ .texto
+ {
+  margin-left: 60px;
+
+ }
+.imagenes-contenido
+{
+  width: 100%;
+}
+ 
+
+ .imagen-logoinno{
+    margin-left: 210px;
+    margin-top: 100px;
+    
+ }
+ 
+ .imagen-logoinv{
+    margin-left: 250px;
+    margin-top: 100px;
+ }
+ .imagen-logoedu{
+    margin-left: 190px;
+    margin-top: 100px;
+ }
+ .imagen-logoinc{
+    margin-left: 210px;
+    margin-top: 100px;
+ }
+ .imagen-logosninv{
+    margin-left: 200px;
+    margin-top: 100px;
+ }
+ .imagen-logoempre{
+  margin-left: 200px;
+  margin-top: 100px;
+  height: 200;
+}
+.imagen-logoinfra{
+  margin-left: 210px;
+  margin-top: 100px;
+}
+.imagen-logoprop{
+  margin-left: 260px;
+  margin-top: 100px;
+}
+.imagen-logogen{
+  margin-left: 310px;
+  margin-top: 100px;
+}
+.imagen-logotic{
+  margin-left: 600px;
+  margin-top: 100px;
+  
+}
+ .content-dos
+ {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 10px;
+  font-size: 25px;
+  
+ }
+ h2{
+
+    list-style: none;
+   
+    display: flex;
+    margin-top: 0px;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    background: linear-gradient(#00C7E5, #00DBB3);
+    color: white;
+    padding: 0;
+    margin: 0;
+    top:0;
+    width: 100%;
+    height: 60px;
+ }
+
+ h3{
+  margin-top: 30px;
+  text-align: center;
+ }
+   .btnInno
+{
+  margin-top: 10px;
+  margin-left: 220px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnInno:hover {
+  background-color: #45a049;
+}
+.btnInno:active {
+  background-color: #3e8e41;
+}
+ .btnInv
+{
+  margin-top: 10px;
+  margin-left: 310px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.btnInv:hover {
+  background-color: #45a049;
+
+}
+.btnInv:active {
+  background-color: #3e8e41;
+}
+.btnEdu
+{
+  margin-top: 10px;
+  margin-left: 300px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnEdu:hover {
+  background-color: #45a049;
+}
+.btnEdu:active {
+  background-color: #3e8e41;
+}
+.btnInc
+{
+  margin-top: 10px;
+  margin-left: 240px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnInc:hover {
+  background-color: #45a049;
+}
+.btnInc:active {
+  background-color: #3e8e41;
+}
+.btnSninv
+{
+  margin-top: 10px;
+  margin-left: 320px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnSninv:hover {
+  background-color: #45a049;
+}
+.btnSninv:active {
+  background-color: #3e8e41;
+}
+.btnEmpre
+{
+  margin-top: 10px;
+  margin-left: 300px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnEmpre:hover {
+  background-color: #45a049;
+}
+.btnEmpre:active {
+  background-color: #3e8e41;
+}
+
+.btnInfra
+{
+  margin-top: 10px;
+  margin-left:220px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnInfra:hover {
+  background-color: #45a049;
+}
+.btnInfra:active {
+  background-color: #3e8e41;
+}
+.btnProp
+{
+  margin-top: 10px;
+  margin-left: 260px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnProp:hover {
+  background-color: #45a049;
+}
+.btnProp:active {
+  background-color: #3e8e41;
+}
+.btnGen
+{
+  margin-top: 10px;
+  margin-left: 310px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnGen:hover {
+  background-color: #45a049;
+}
+.btnGen:active {
+  background-color: #3e8e41;
+}
+.btnTic
+{
+  margin-top: 10px;
+  margin-left: 650px;
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btnTic:hover {
+  background-color: #45a049;
+}
+.btnTic:active {
+  background-color: #3e8e41;
+}
+.tabla-prim{
+  background-color: white;
+  color:black;
+}
+.tabla{
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 20%;
+  
+
+}
+
+h5{
+  list-style: none;
+   
+  display: flex;
+  margin-top: 0px;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  background: linear-gradient(to right, #599602, #8EB404, #C4C906, #E4C607, #E9A805, #EF8904, #F46B02, #FA4C01, #FF2E00);
+  color: white;
+  padding: 0;
+  margin: 0;
+  top:0;
+  width: 100%;
+  height: 60px;
+}
+.simb-bar
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+  
+}
+
+
+
+ 

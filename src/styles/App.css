@@ -1,0 +1,250 @@
+body{
+    background-color: #313030;
+    color: white;
+
+}
+
+.hidalgo-content{
+    margin-top: 15px;
+}
+h1{
+
+    list-style: none;
+   padding: 0;
+   margin: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+   justify-content: center; /* Centrar horizontalmente */
+   align-items: center;
+    background: linear-gradient(#00C7E5, #00DBB3);
+    color: white;
+
+   
+  height: 60px;
+}
+
+.imgheader
+{
+ position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 12%;
+  display: block;
+  opacity: 0.8;
+
+}
+
+ .imagen-descripcion
+{
+  width: 266px; 
+  height: 240px;
+  float: right;
+  margin-top: 10px;
+
+}
+.imagen-logov
+{
+    width: 266px; 
+  height: 240px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.imagen-logoheader
+{
+    width: 256px; 
+    height: 220px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+    background-color: #0681BB;
+   height: 60px;
+   position: fixed;
+   top: 0;
+   margin-top: 60px;
+
+
+}
+
+/* Estilos para el menú de navegación */
+
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Cambiar el color del enlace cuando se coloca el cursor sobre él */
+nav a:hover {
+    color: #c0fe72; /* Cambia a un color diferente al pasar el cursor */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170 px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.content{
+    color: #ffffff;
+    margin-left: 320px;
+    margin-top: 150px;
+}
+.imagen-descripcion{
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+.btnNacional
+{
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 320px;
+  margin-top: 30px;
+}
+
+.btnNacional:hover {
+  background-color: #45a049;
+}
+.btnNacional:active {
+  background-color: #3e8e41;
+}
+.btnHidalgo
+{
+  padding: 10px 20px;
+  background-color: #0681BB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px
+}
+
+.btnHidalgo:hover {
+  background-color: #45a049;
+}
+.btnHidalgo:active {
+  background-color: #3e8e41;
+}
+.footer{
+    background-color: #313030;
+    padding: 70px 0;
+    margin-top: 50px;
+    margin-left: 80px;
+    
+    width: 100%;
+    padding-top: 20px;
+    
+    
+}
+ .imagen-pie
+{
+    width: 200px; 
+    margin-top: 25px;
+    margin-left: 20px; 
+    float: left;
+}
+.footer-col{
+    width: 25% ;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px ;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize ;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300 ;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color:#0681BB ;
+    padding: left 8px;
+}
+.footer-col .red-social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+.footer-col .red-social a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer-copy{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+/*Nacional.css*/
+

@@ -1,0 +1,23 @@
+.mundo{
+   
+    background-image: linear-gradient(to right,rgb(0 0 0/ .8) , rgb(0 0 0/.7)), url(../imagenes/mundo.png);
+     padding: 0;
+     margin: 0;
+     
+     background-size: 100% 300%;
+     height: 150px;
+     width: 100%; 
+     background-repeat: no-repeat; 
+    
+   }
+   h3
+   {
+    text-align: center;
+    color:#ffffff
+   }
+  
+  .superpuestaedu{
+   position: absolute;
+   top: 0;
+   margin-left: 1100px;
+  }
